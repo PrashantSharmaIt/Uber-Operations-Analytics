@@ -7,26 +7,32 @@ This project is an end-to-end Business Intelligence solution analyzing a compreh
 **Tools Used**: Power BI, SQL, Data Modeling, Excel  
 **Dataset**: Real-World Uber Ride Operations Data (`uber.xlsx`)
 
-📊 Dashboard Views & Insights
+## 📊 Dashboard Views & Insights
 The dashboard is structured into distinct analytical views to provide targeted, department-specific insights.
 
-1. Welcome Screen
-The landing page providing intuitive navigation across the five distinct analytical modules.
+### 1. Welcome Screen
+*The landing page providing intuitive navigation across the five distinct analytical modules.*
+![Welcome Screen](Dashboard/Overview_View.png)
 
-2. Executive Overview
-Monitors top-level KPIs including Completed vs. Lost Bookings, Total Revenue, and high-level vehicle performance.
+### 2. Executive Overview
+*Monitors top-level KPIs including Completed vs. Lost Bookings, Total Revenue, and high-level vehicle performance.*
+![Overview Dashboard](Dashboard/Overview_View%201.png)
 
-3. Vehicle Analytics
-Drills down into fleet performance, comparing Customer Count, Revenue, and Completed Bookings across vehicle types (Auto, Bike, Go Mini, Go Sedan, Premier, Uber XL).
+### 3. Vehicle Analytics
+*Drills down into fleet performance, comparing Customer Count, Revenue, and Completed Bookings across vehicle types (Auto, Bike, Go Mini, Go Sedan, Premier, Uber XL).*
+![Vehicle Analytics](Dashboard/Vehichle%20Analytic_View.png)
 
-4. Revenue Analytics
-Tracks financial performance over time and breaks down revenue by Payment Method (UPI, Cash, Wallet, Cards) and Top Performing Customers.
+### 4. Revenue Analytics
+*Tracks financial performance over time and breaks down revenue by Payment Method (UPI, Cash, Wallet, Cards) and Top Performing Customers.*
+![Revenue Analytics](Dashboard/Revenue%20Analytic_View.png)
 
-5. Rider Behavior Analytics
-Segments users into First-Time, Return, and Regular Riders. Analyzes granular cancellation reasons (e.g., Driver not moving, Change of plans) to improve retention.
+### 5. Rider Behavior Analytics
+*Segments users into First-Time, Return, and Regular Riders. Analyzes granular cancellation reasons (e.g., Driver not moving, Change of plans) to improve retention.*
+![Rider Analytics](Dashboard/Rider%20Analytics_View.png)
 
-6. Location & Distance Analytics
-Maps geographic demand by identifying the highest-volume Pickup and Drop-off locations (e.g., DLF Phase 3, Anand Vihar). Tracks average trip distances and daily booking heatmaps.
+### 6. Location & Distance Analytics
+*Maps geographic demand by identifying the highest-volume Pickup and Drop-off locations (e.g., DLF Phase 3, Anand Vihar). Tracks average trip distances and daily booking heatmaps.*
+![Location Analytics](Dashboard/Location%20Analytic_View.png)
 
 💡 Key Business Findings
 Rider Retention: A significant volume of completed rides comes from 'First Time' riders, highlighting a strategic opportunity to implement loyalty campaigns to convert them into 'Regular' riders.
